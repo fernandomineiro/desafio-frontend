@@ -1,0 +1,51 @@
+.link-container{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;     
+}
+
+.link-container a{
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.link-container a:hover{
+    color: darkGrey;
+    text-align: left;
+    
+}
+
+
+.search {
+    background: white;
+    padding: 0.4rem 1rem;
+    border: 1px solid, darkGrey;
+    height: 30px;
+    color: Black;
+    margin-right: 10px;
+    width: 300px;    
+    position: relative;
+}
+
+.search-container {   
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    padding: 0 30 10 30;
+    margin-top: 15px;
+}
+
+.search-bar{
+    padding: auto;   
+    padding-bottom: 10px;
+}
+
+.searhch-button{
+    background: white;
+    border: 1px solid, darkGrey;
+    height: 31px;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+    font-size: 10pt;
+}
